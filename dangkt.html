@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin thành viên</title>
+</head>
+
+<body>
+
+    <h1 align="center">PHIẾU ĐĂNG KÝ</h1>
+
+    <form>
+
+        <table align="center">
+
+         
+            <tr>
+                <td>Họ và tên:</td>
+                <td>
+                    <input type="text" name="hoten" required>
+                    (*)
+                </td>
+            </tr>
+
+           
+            <tr>
+                <td>Địa chỉ:</td>
+                <td>
+                    <input type="text" name="diachi" size="35">
+                </td>
+            </tr>
+
+           
+            <tr>
+                <td>Email:</td>
+                <td>
+                    <input type="email" name="email" required>
+                    (*)
+                </td>
+            </tr>
+
+         
+            <tr>
+                <td>Giới tính:</td>
+                <td>
+                    <input type="radio" name="gioitinh" value="Nam">
+                    Nam
+
+                    <input type="radio" name="gioitinh" value="Nu">
+                    Nữ
+                </td>
+            </tr>
+
+            
+            <tr>
+                <td>Tuổi:</td>
+                <td>
+                    <input type="number" name="tuoi" size="5" required>
+                    (*)
+                </td>
+            </tr>
+
+         
+            <tr>
+                <td valign="top">Sở thích:</td>
+
+                <td>
+                    <input type="checkbox" name="sothich" value="The thao">
+                    Thể thao
+                    <br>
+
+                    <input type="checkbox" name="sothich" value="Van hoc">
+                    Văn học
+                    <br>
+
+                    <input type="checkbox" name="sothich" value="Cong nghe thong tin">
+                    Công nghệ thông tin
+                    <br>
+
+                    <input type="checkbox" name="sothich" value="Lich su">
+                    Lịch sử
+                    <br>
+
+                    <input type="checkbox" name="sothich" value="Game">
+                    Game
+                </td>
+            </tr>
+
+            
+            <tr>
+                <td>Chuyên ngành:</td>
+                <td>
+                    <select name="chuyennganh">
+                        <option>Công nghệ Web</option>
+                        <option>Công nghệ thông tin</option>
+                        <option>Kỹ thuật máy tính</option>
+                        <option>Thiết kế đồ họa</option>
+                    </select>
+                </td>
+            </tr>
+
+            
+            <tr>
+                <td>Gửi hình:</td>
+                <td>
+                    <input type="file" name="guihinh">
+                </td>
+            </tr>
+
+          
+            <tr>
+                <td valign="top">Yêu cầu:</td>
+                <td>
+                    <textarea name="yeucau" rows="5" cols="30"></textarea>
+                </td>
+            </tr>
+
+            
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Gửi thông tin">
+                    <input type="reset" value="Nhập lại">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+    <br>
+
+    <a href="index.html">Quay về trang chủ</a>
+
+</body>
+
+</html>
